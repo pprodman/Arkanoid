@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: 39c6e5c95de942d4eb3c17d323fe98f6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - racketHitSound: {fileID: 8300000, guid: 386a34e3be6656c4ba7d4a17216ce54a, type: 3}
+  - obstacleHitSound: {fileID: 8300000, guid: d49f4ba0630e96a42a50cb348037efeb, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

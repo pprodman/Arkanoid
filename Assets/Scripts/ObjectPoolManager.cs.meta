@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0248af1ec434cd84f8b665f34a693142
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ballPrefab: {instanceID: 0}
+  - bigRacketPrefab: {instanceID: 0}
+  - multiBallPrefab: {instanceID: 0}
+  - slowBallPrefab: {instanceID: 0}
+  - extraLifePrefab: {instanceID: 0}
+  - slowRacketPrefab: {instanceID: 0}
+  - fastRacketPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

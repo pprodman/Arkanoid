@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ball
+  - Racket
+  - Bonus
+  - Obstacle
+  - Bomb
+  - BlueBlock
+  - GreenBlock
+  - PinkBlock
+  - RedBlock
   layers:
   - Default
   - TransparentFX
