@@ -1,6 +1,3 @@
-
----
-
 # **DOCUMENTACIÓN GDD**
 
 ## **Título del Juego**
