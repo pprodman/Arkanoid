@@ -1,11 +1,11 @@
-# **DOCUMENTACIÓN GDD**
+# **DOCUMENTACIÓN GDD 📝**
 
 ## **Título del Juego**
 **Project Arkanoid**
 
 ---
 
-## **1. Visión General del Juego**
+## **🏷️ 1. Visión General del Juego**
 
 ### **Concepto Básico**
 "Project Arkanoid" es un juego arcade clásico inspirado en el icónico "Arkanoid". El jugador controla una raqueta que debe golpear una bola para destruir bloques en la pantalla. A medida que avanzan los niveles, se introducen nuevos desafíos, power-ups y obstáculos que aumentan la dificultad y diversión.
@@ -20,7 +20,7 @@
 
 ---
 
-## **2. Mecánicas de Juego**
+## **🏷️ 2. Mecánicas de Juego**
 
 ### **Movimiento del Paddle**
 - La raqueta se mueve horizontalmente en la parte inferior de la pantalla.
@@ -68,7 +68,7 @@
 
 ---
 
-## **3. Programación**
+## **🏷️ 3. Programación**
 
 ### **Estructura de Clases**
 - **GameManager**: Gestiona el estado global del juego (puntuación, vidas, niveles).
@@ -87,7 +87,7 @@
 
 ---
 
-## **4. Diseño de Niveles**
+## **🏷️ 4. Diseño de Niveles**
 
 ### **Estructura de los Niveles**
 - Cada nivel tiene una disposición única de bloques.
@@ -102,7 +102,7 @@
 
 ---
 
-## **5. Sistema de Puntuación**
+## **🏷️ 5. Sistema de Puntuación**
 
 ### **Cómo se Ganán Puntos**
 - Destruir bloques: otorga puntos según su tipo.
@@ -117,7 +117,7 @@
 
 ---
 
-## **6. Interfaz de Usuario**
+## **🏷️ 6. Interfaz de Usuario**
 
 ### **HUD (Heads-Up Display)**
 - **Puntuación Máxima**: Mostrada en la esquina superior derecha.
@@ -131,7 +131,7 @@
 
 ---
 
-## **7. Arte y Estilo Visual**
+## **🏷️ 7. Arte y Estilo Visual**
 
 ### **Estilo Gráfico**
 - **Estilo**: Pixel art retro con colores vibrantes.
@@ -150,7 +150,7 @@
 
 ---
 
-## **8. Audio**
+## **🏷️ 8. Audio**
 
 ### **Efectos de Sonido**
 - Start Game: Sonido al presionar el boton de inicio.
@@ -166,7 +166,7 @@
 
 ---
 
-## **9. Características Técnicas**
+## **🏷️ 9. Características Técnicas**
 
 ### **Motor de Juego**
 - Unity con lenguaje C#.
@@ -177,7 +177,7 @@
 
 ---
 
-## **10. Planificación del Desarrollo: Fases del Desarrollo**
+## **🏷️ 10. Planificación del Desarrollo: Fases del Desarrollo**
 
 ### **Fase 1: Preproducción**
 - Diseño de mecánicas básicas.
