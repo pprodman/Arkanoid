@@ -50,7 +50,7 @@
 - **Explosivos**: Causan una explosión que afecta a bloques cercanos.
 - **Indestructibles**: Obstáculos fijos en el nivel.
 
-#### Detalles Técnicos:
+#### *Detalles Técnicos*:
 - Los bloques utilizan un sistema de pooling similar al de la bola.
 - Los bloques tienen diferentes comportamientos según su tipo (`BlockColor`).
 
@@ -62,7 +62,7 @@
 - **Fast Racket**: Aumenta temporalmente la velocidad de la raqueta.
 - **Slow Racket**: Reduce temporalmente la velocidad de la raqueta.
 
-#### Detalles Técnicos:
+#### *Detalles Técnicos*:
 - Los power-ups están representados por el enum `BonusType`.
 - Se generan aleatoriamente cuando se destruyen bloques especiales.
 
@@ -72,9 +72,9 @@
 
 ---
 
-## **🏷️ 3. Programación**
+## 🏷️ 3. Programación
 
-### **Estructura de Clases**
+### Estructura de Clases
 - **GameManager**: Gestiona el estado global del juego (puntuación, vidas, niveles).
 - **Ball**: Controla el comportamiento de la bola (movimiento, colisiones).
 - **Block**: Define los tipos de bloques y sus interacciones.
@@ -84,31 +84,31 @@
 - **MusicManager**: Gestiona la música y los efectos de sonido.
 - **ObjectPoolManager**: Implementa un sistema de pooling para objetos como bolas y power-ups.
 
-### **Estructura de Control**
+### Estructura de Control
 - **Singletons**: GameManager, UIManager y MusicManager son singletons para persistir entre escenas.
 - **Pooling**: Uso de un sistema de pooling para objetos como bolas y power-ups.
 - **Corrutinas**: Para manejar eventos temporales como power-ups y explosiones.
 
 ---
 
-## **🏷️ 4. Diseño de Niveles**
+## 🏷️ 4. Diseño de Niveles
 
-### **Estructura de los Niveles**
+### Estructura de los Niveles
 - Cada nivel tiene una disposición única de bloques.
 
-### **Progresión de Dificultad**
+### Progresión de Dificultad
 - La disposición de bloques y obstaculos aumenta gradualmente su dificultad por nivel.
 - Aumento de la velocidad de la bola.
 
-### **Variaciones en la Disposición de los Bloques**
+### Variaciones en la Disposición de los Bloques
 - Patrones simétricos, asimétricos y laberínticos.
 - Obstáculos indestructibles que bloquean el camino de la bola.
 
 ---
 
-## **🏷️ 5. Sistema de Puntuación**
+## 🏷️ 5. Sistema de Puntuación
 
-### **Cómo se Ganán Puntos**
+### Cómo se Ganán Puntos
 - Destruir bloques: otorga puntos según su tipo.
     - Azules: +3 puntos
     - Verdes: +4 puntos
@@ -116,36 +116,36 @@
     - Rosas: +5 puntos
 - Recoger power-ups: +30 puntos por cada power-up recogido.
 
-### **Puntuaciones Altas**
+### Puntuaciones Altas
 - Se guarda la puntuación máxima en PlayerPrefs para mostrarla en el menú principal.
 
 ---
 
-## **🏷️ 6. Interfaz de Usuario**
+## 🏷️ 6. Interfaz de Usuario
 
-### **HUD (Heads-Up Display)**
+### HUD (Heads-Up Display)
 - **Puntuación Máxima**: Mostrada en la esquina superior derecha.
 - **Puntuación Actual**: Mostrada en la esquina superior derecha.
 - **Vidas Restantes**: Representadas por iconos de corazones en la esquina superior izquierda.
 - **Nivel Actual**: Mostrado en la esquina inferior derecha.
 
-### **Menús del Juego**
+### Menús del Juego
 - **Menú Principal**: Opciones para jugar, salir y ver la puntuación máxima.
 - **Pantalla de Game Over**: Muestra la puntuación final y un botón para reiniciar.
 
 ---
 
-## **🏷️ 7. Arte y Estilo Visual**
+## 🏷️ 7. Arte y Estilo Visual
 
-### **Estilo Gráfico**
+### Estilo Gráfico
 - **Estilo**: Pixel art retro con colores vibrantes.
 - **Inspiración**: Juegos clásicos de arcade de los años 80 y 90
 
-### **Paleta de Colores**
+### Paleta de Colores
 - Colores vibrantes para los bloques y power-ups.
 - Fondo oscuro para destacar los elementos del juego.
 
-### **Diseño de Sprites**
+### Diseño de Sprites
 - Raqueta: Rectángulo simple con detalles metálicos.
 - Bola: Esfera brillante con efectos de luz.
 - Bloques: Variaciones de color según el tipo de bloque.
@@ -154,9 +154,9 @@
 
 ---
 
-## **🏷️ 8. Audio**
+## 🏷️ 8. Audio
 
-### **Efectos de Sonido**
+### Efectos de Sonido
 - Start Game: Sonido al presionar el boton de inicio.
 - Golpe de bola: Sonido al golpear el paddle o los bloques.
 - Bloques indestructibles: Sonido al golpear una roca.
@@ -165,14 +165,14 @@
 - Vidas: Sonido al ganar o perder una vida.
 - Game Over: Sonido al perder todas las vidas.
 
-### **Música de Fondo**
+### Música de Fondo
 - Temas principal de Arkanoid en menú principal.
 
 ---
 
-## **🏷️ 9. Características Técnicas**
+## 🏷️ 9. Características Técnicas
 
-### **Motor de Juego**
+### Motor de Juego
 - Unity con lenguaje C#.
 
 ### **Requisitos de Rendimiento**
@@ -181,28 +181,28 @@
 
 ---
 
-## **🏷️ 10. Planificación del Desarrollo: Fases del Desarrollo**
+## 🏷️ 10. Planificación del Desarrollo: Fases del Desarrollo
 
-### **Fase 1: Preproducción**
+### Fase 1: Preproducción
 - Diseño de mecánicas básicas.
 - Creación de prototipos.
 - Definición de arte y estilo visual.
 
-### **Fase 2: Desarrollo inicial**
+### Fase 2: Desarrollo inicial
 - Implementación de mecánicas básicas (paddle, bola, bloques).
 - Creación de niveles iniciales.
 - Implementación de la interfaz de usuario básica.
 
-### **Fase 3: Desarrollo avanzado**
+### Fase 3: Desarrollo avanzado
 - Implementación de power-ups.
 - Creación de niveles adicionales.
 - Integración de sonidos y música.
 
-### **Fase 4: Polishing**
+### Fase 4: Polishing
 - Mejoras visuales y de audio.
 - Optimización del rendimiento.
 
-### **Fase 5: Pruebas y ajustes**
+### Fase 5: Pruebas y ajustes
 - Pruebas de jugabilidad.
 - Corrección de errores y optimización.
 
