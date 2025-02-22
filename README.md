@@ -3,7 +3,9 @@
 ---
 
 ## Documentación GDD 📝
--1.[Visión General del Juego](#1.-visión-general-del-juego)
+
+-1.[Visión General del Juego](#1-visión-general-del-juego)
+
 ---
 
 ## 🏷️ 1. Visión General del Juego
