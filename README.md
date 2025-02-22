@@ -1,8 +1,9 @@
-# **DOCUMENTACIÓN GDD 📝**
+# **Project Arkanoid 🎾**
+
+## DOCUMENTACIÓN GDD 📝
 
 ## **📜 Título del Juego**
-
-# **Project Arkanoid 🎾**
+- Project Arkanoid
 
 ---
 
