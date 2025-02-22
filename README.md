@@ -2,7 +2,7 @@
 
 ---
 
-## Documentación GDD 📝
+## 📝 Documentación GDD
 
 1. [Visión General del Juego](#%EF%B8%8F-1-visión-general-del-juego)
 2. [Mecánicas de Juego](#%EF%B8%8F-2-mecánicas-de-juego)
