@@ -3,13 +3,13 @@
 ---
 
 ## Documentación GDD 📝
-
-## 📜 Título del Juego
-- Project Arkanoid
-
+-1.[Visión General del Juego](#1.-visión-general-del-juego)
 ---
 
 ## 🏷️ 1. Visión General del Juego
+
+### Título del Juego
+- Project Arkanoid
 
 ### **Concepto Básico**
 "Project Arkanoid" es un juego arcade clásico inspirado en el icónico "Arkanoid". El jugador controla una raqueta que debe golpear una bola para destruir bloques en la pantalla. A medida que avanzan los niveles, se introducen nuevos desafíos, power-ups y obstáculos que aumentan la dificultad y diversión.
