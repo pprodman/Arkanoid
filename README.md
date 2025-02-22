@@ -4,16 +4,16 @@
 
 ## Documentación GDD 📝
 
--1. [Visión General del Juego](#%EF%B8%8F-1-visión-general-del-juego)
--2. [Mecánicas de Juego](#%EF%B8%8F-2-mecánicas-de-juego)
--3. [Programación](#%EF%B8%8F-3-programación)
--4. [Diseño de Niveles](#%EF%B8%8F-4-diseño-de-niveles)
--5. [Sistema de Puntuación](#%EF%B8%8F-5-sistema-de-puntuación)
--6. [Interfaz de Usuario](#%EF%B8%8F-6-interfaz-de-usuario)
--7. [Arte y Estilo Visual](#%EF%B8%8F-7-arte-y-estilo-visual)
--8. [Audio](#%EF%B8%8F-8-audio)
--9. [Características Técnicas](#%EF%B8%8F-9-características-técnicas)
--10. [Planificación del Desarrollo: Fases del Desarrollo](#%EF%B8%8F-10.planificación-del-desarrollo:fases-del-desarrollo)
+- 1. [Visión General del Juego](#%EF%B8%8F-1-visión-general-del-juego)
+- 2. [Mecánicas de Juego](#%EF%B8%8F-2-mecánicas-de-juego)
+- 3. [Programación](#%EF%B8%8F-3-programación)
+- 4. [Diseño de Niveles](#%EF%B8%8F-4-diseño-de-niveles)
+- 5. [Sistema de Puntuación](#%EF%B8%8F-5-sistema-de-puntuación)
+- 6. [Interfaz de Usuario](#%EF%B8%8F-6-interfaz-de-usuario)
+- 7. [Arte y Estilo Visual](#%EF%B8%8F-7-arte-y-estilo-visual)
+- 8. [Audio](#%EF%B8%8F-8-audio)
+- 9. [Características Técnicas](#%EF%B8%8F-9-características-técnicas)
+- 10. [Planificación del Desarrollo: Fases del Desarrollo](#%EF%B8%8F-10-planificación-del-desarrollo-fases-del-desarrollo)
 
 ---
 
