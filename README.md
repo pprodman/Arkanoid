@@ -1,13 +1,15 @@
 # **Project Arkanoid 🎾**
 
-## DOCUMENTACIÓN GDD 📝
+---
 
-## **📜 Título del Juego**
+## Documentación GDD 📝
+
+## 📜 Título del Juego
 - Project Arkanoid
 
 ---
 
-## **🏷️ 1. Visión General del Juego**
+## 🏷️ 1. Visión General del Juego
 
 ### **Concepto Básico**
 "Project Arkanoid" es un juego arcade clásico inspirado en el icónico "Arkanoid". El jugador controla una raqueta que debe golpear una bola para destruir bloques en la pantalla. A medida que avanzan los niveles, se introducen nuevos desafíos, power-ups y obstáculos que aumentan la dificultad y diversión.
@@ -22,24 +24,24 @@
 
 ---
 
-## **🏷️ 2. Mecánicas de Juego**
+## 🏷️ 2. Mecánicas de Juego
 
-### **Movimiento del Paddle**
+### Movimiento del Paddle
 - La raqueta se mueve horizontalmente en la parte inferior de la pantalla.
 - Controlada por el jugador mediante las flechas izquierda/derecha.
 - Velocidad ajustable según power-ups.
 
-### **Comportamiento de la Bola**
+### Comportamiento de la Bola
 - La bola rebota en las paredes, el paddle y los bloques.
 - Rebota en ángulos según el punto de impacto en el paddle.
 - Reinicio si la bola cae fuera de la pantalla.
 - La velocidad de la bola aumenta gradualmente con el tiempo.
 
-#### **Detalles Técnicos**:
+#### Detalles Técnicos:
 - La bola utiliza un sistema de pooling (`ObjectPoolManager`) para optimizar su creación y reutilización.
 - La velocidad inicial de la bola está configurada en `100.0f` y aumenta un `10%` cada `5 segundos`.
 
-### **Tipos de Bloques y sus Características**
+### Tipos de Bloques y sus Características
 - **Normales**: Se destruyen con un golpe
     - **Bloques Azules**: +3 puntos
     - **Bloques Verdes**: +4 puntos
@@ -48,11 +50,11 @@
 - **Explosivos**: Causan una explosión que afecta a bloques cercanos.
 - **Indestructibles**: Obstáculos fijos en el nivel.
 
-#### **Detalles Técnicos**:
+#### Detalles Técnicos:
 - Los bloques utilizan un sistema de pooling similar al de la bola.
 - Los bloques tienen diferentes comportamientos según su tipo (`BlockColor`).
 
-### **Sistema de Power-Ups**
+### Sistema de Power-Ups
 - **Big Racket**: Aumenta temporalmente el tamaño de la raqueta.
 - **Multi Ball**: Genera bolas adicionales.
 - **Slow Ball**: Reduce la velocidad de la bola durante 10 segundos.
@@ -60,11 +62,11 @@
 - **Fast Racket**: Aumenta temporalmente la velocidad de la raqueta.
 - **Slow Racket**: Reduce temporalmente la velocidad de la raqueta.
 
-#### **Detalles Técnicos**:
+#### Detalles Técnicos:
 - Los power-ups están representados por el enum `BonusType`.
 - Se generan aleatoriamente cuando se destruyen bloques especiales.
 
-### **Condiciones de Victoria y Derrota**
+### Condiciones de Victoria y Derrota
 - **Victoria**: Destruir todos los bloques azules en un nivel.
 - **Derrota**: Perder todas las vidas antes de completar el nivel.
 
